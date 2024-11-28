@@ -10,7 +10,7 @@ public class ScoreAdder : MonoBehaviour {
     [SerializeField] int pointsToAdd;
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == triggeringTag && scoreField!=null) {
+        if (other.tag == triggeringTag && scoreField != null) {
             scoreField.AddNumber(pointsToAdd);
         }
     }
