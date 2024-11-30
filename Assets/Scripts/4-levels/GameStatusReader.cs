@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /**
- * This component reades the "playerScore" static variable from the GAME_STATUS static class into this object's number field.
+ * This component reads the "playerScore" static variable from the GAME_STATUS static class into this object's number field.
  */
 [RequireComponent(typeof(NumberField))]
 public class GameStatusReader : MonoBehaviour

@@ -101,3 +101,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 5, y: -7, z: 0}
+  deadZone: -7
+  destroyDelay: 2

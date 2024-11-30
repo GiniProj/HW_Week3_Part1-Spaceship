@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6742800857908197687}
   - component: {fileID: -8433250894850022944}
   - component: {fileID: -3242596646991089796}
-  - component: {fileID: -1184156024153231225}
+  - component: {fileID: 8764922043884653423}
   m_Layer: 0
   m_Name: LaserWithScoreAdder
   m_TagString: Laser
@@ -104,6 +104,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 0, y: 0, z: 0}
+  enemyDeadZone: -7
+  laserDeadZone: 7
+  destroyDelay: 2
 --- !u!70 &6742800857908197687
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -181,9 +184,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggeringTag: Enemy
-  scoreField: {fileID: 0}
+  scoreField: {fileID: 6474085865362465328, guid: 0c96b8ca40d33e84f85d9cd799d65ba7,
+    type: 3}
   pointsToAdd: 5
---- !u!114 &-1184156024153231225
+--- !u!114 &8764922043884653423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -192,7 +196,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 206225842732292031}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b571bdbf83e603449e50749327e251f, type: 3}
+  m_Script: {fileID: 11500000, guid: ad2992db58c286f42a1e69d730845080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   triggeringTag: Enemy

@@ -8,6 +8,7 @@ TagManager:
   - Laser
   - Wall
   - ToNextLevel
+  - PlayAgain
   layers:
   - Default
   - TransparentFX

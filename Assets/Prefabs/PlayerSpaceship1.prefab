@@ -26,7 +26,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &162324176711142729
 Transform:
   m_ObjectHideFlags: 0
@@ -291,6 +291,7 @@ MonoBehaviour:
   prefabToSpawn: {fileID: 206225842732292031, guid: 1064f1e6fd4430a48ae8a63513c527b4,
     type: 3}
   velocityOfSpawnedObject: {x: 0, y: 10, z: 0}
+  coolDown: 0.5
   pointsToAdd: 1
 --- !u!114 &4946659499531681875
 MonoBehaviour:
@@ -318,6 +319,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggeringTag: Enemy
   sceneName: level-game-over
+  relativeSpawnPosition: 1
+  spawnPoint: {x: 0, y: 0, z: 0}
 --- !u!114 &7437423699139504799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,6 +335,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggeringTag: ToNextLevel
   sceneName: level-2
+  relativeSpawnPosition: 1
+  spawnPoint: {x: 0, y: 0, z: 0}
 --- !u!114 &6698900961974337316
 MonoBehaviour:
   m_ObjectHideFlags: 0

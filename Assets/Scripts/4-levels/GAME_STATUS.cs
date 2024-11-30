@@ -6,4 +6,9 @@
 public class GAME_STATUS : MonoBehaviour
 {
     public static int playerScore = 0;
+
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 }

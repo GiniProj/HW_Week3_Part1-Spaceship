@@ -1,5 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /**
@@ -14,13 +12,9 @@ public class DestroyOnTrigger2D : MonoBehaviour
     {
         if (other.tag == triggeringTag && enabled)
         {
-            Destroy(this.gameObject);
             Destroy(other.gameObject);
+            Destroy(this.gameObject);
         }
     }
 
-    private void Update()
-    {
-        /* Just to show the enabled checkbox in Editor */
-    }
 }

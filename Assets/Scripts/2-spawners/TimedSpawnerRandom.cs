@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
 /**
  * This component instantiates a given prefab at random time intervals and random bias from its object position.

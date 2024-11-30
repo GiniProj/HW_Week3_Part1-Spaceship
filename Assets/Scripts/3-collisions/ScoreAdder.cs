@@ -12,9 +12,10 @@ public class ScoreAdder : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == triggeringTag && scoreField != null)
+        if (other.CompareTag(triggeringTag) && scoreField != null)
         {
             scoreField.AddNumber(pointsToAdd);
+            GAME_STATUS.playerScore += pointsToAdd; // Update the static score
         }
     }
 
@@ -23,9 +24,11 @@ public class ScoreAdder : MonoBehaviour
         this.scoreField = newTextField;
         return this;
     }
+
     public ScoreAdder SetPointsToAdd(int newPointsToAdd)
     {
         this.pointsToAdd = newPointsToAdd;
         return this;
     }
+ 
 }
