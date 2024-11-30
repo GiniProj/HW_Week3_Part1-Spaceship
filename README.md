@@ -1,5 +1,12 @@
 # Space Shooter Game Enhancements
 
+[Play the game on Itch IO](https://kg-proj.itch.io/spaceship).
+
+<div style="display: flex;">
+    <img src="https://github.com/GiniProj/HW_Week3_Part1-Spaceship-AG/blob/main/FirstLevelPicture.png" alt="FirstLevelPicture" width="400" height="200">
+    <img src="https://github.com/GiniProj/HW_Week3_Part1-Spaceship-AG/blob/main/GameOverPicture.png" alt="GameOverPicture" width="400" height="200">
+</div>
+
 ## Introduction
 This project enhances the existing Space Shooter game by implementing the following features:
 1. **Shooting Cool Down**: Added feature to any class that inherit from ClickSpawner to have a cool down before the next spawn, or not cool at all, default is 0.5 sec cool down, therefore shooting that spawn every click on backspace can shoot only every half a sec. 
