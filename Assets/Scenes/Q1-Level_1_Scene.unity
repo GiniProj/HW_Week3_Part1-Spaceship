@@ -1026,6 +1026,16 @@ PrefabInstance:
       propertyPath: sceneName
       value: Q1-Level_2_Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 5353475829128976386, guid: 41e5c0266515f1c49aec825f2068a297,
+        type: 3}
+      propertyPath: spawnPoint.y
+      value: -3.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353475829128976386, guid: 41e5c0266515f1c49aec825f2068a297,
+        type: 3}
+      propertyPath: relativeSpawnPosition
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7011790608333572593, guid: 41e5c0266515f1c49aec825f2068a297,
         type: 3}
       propertyPath: m_SizeDelta.x

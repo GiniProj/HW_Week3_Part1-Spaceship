@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -46,6 +47,7 @@ public class GotoNextLevel : MonoBehaviour
     {
         Debug.Log("Triggering scene change");
         SceneManager.LoadScene(sceneName);
+        transform.position = spawnPoint;
         Debug.Log("Scene changed to " + sceneName);
     }
 

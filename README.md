@@ -1,17 +1,10 @@
-# README: Space Shooter Game Enhancements
+# Space Shooter Game Enhancements
 
 ## Introduction
 This project enhances the existing Space Shooter game by implementing the following features:
 1. **Shooting Cool Down**: Added feature to any class that inherit from ClickSpawner to have a cool down before the next spawn, or not cool at all, default is 0.5 sec cool down, therefore shooting that spawn every click on backspace can shoot only every half a sec. 
-2. **xxx**: 
-
----
-
-
-
-
-
----
+2. **Player Position Transition at Next Level and Game Over Enhancements**: I added the option to change the `gotoNextLevel` position relative to the object's last position or independently. Additionally, the Game Over scene has been updated to exclude the player and include a UI score that updates according to the `game_status` class, featuring an improved UI design.
+3. **Modified Spawn Position and velocity**: Changed the game property to be more exciting, enemy spawn and direction movements.
 
 * Files and farther explanation in here:
 [here](https://github.com/gamedev-at-ariel/gamedev-5782/blob/master/04-unity-triggers/homework.pdf)
