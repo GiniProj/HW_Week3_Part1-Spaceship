@@ -25,6 +25,9 @@ The `TextScoreUpdate` script updates the displayed score in the Game Over scene.
 The `GotoNextLevel` script handles transitioning to the next level and positioning. You can view the script [here](https://github.com/GiniProj/HW_Week3_Part1-Spaceship-AG/blob/main/Assets/Scripts/4-levels/GotoNextLevel.cs).
 
 ---
+
+## Information:
+
 * Files and farther explanation in here:
 [here](https://github.com/gamedev-at-ariel/gamedev-5782/blob/master/04-unity-triggers/homework.pdf)
 
