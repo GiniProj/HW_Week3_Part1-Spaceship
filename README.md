@@ -6,6 +6,18 @@ This project enhances the existing Space Shooter game by implementing the follow
 2. **Player Position Transition at Next Level and Game Over Enhancements**: I added the option to change the `gotoNextLevel` position relative to the object's last position or independently. Additionally, the Game Over scene has been updated to exclude the player and include a UI score that updates according to the `game_status` class, featuring an improved UI design.
 3. **Modified Spawn Position and velocity**: Changed the game property to be more exciting, enemy spawn and direction movements.
 
+## References Implementations
+
+### ClickSpawner.cs Update Function
+The `Update` function in `ClickSpawner.cs` is responsible for spawning objects when the assigned key is pressed and handling the cooldown period. You can view the function [here](https://github.com/GiniProj/HW_Week3_Part1-Spaceship-AG/blob/main/Assets/Scripts/2-spawners/ClickSpawner.cs#L37).
+
+### TextScoreUpdate.cs Script
+The `TextScoreUpdate` script updates the displayed score in the Game Over scene. You can view the script [here](https://github.com/GiniProj/HW_Week3_Part1-Spaceship-AG/blob/main/Assets/TextScoreUpdate.cs).
+
+### GotoNextLevel.cs Script
+The `GotoNextLevel` script handles transitioning to the next level and positioning. You can view the script [here](https://github.com/GiniProj/HW_Week3_Part1-Spaceship-AG/blob/main/Assets/Scripts/4-levels/GotoNextLevel.cs).
+
+---
 * Files and farther explanation in here:
 [here](https://github.com/gamedev-at-ariel/gamedev-5782/blob/master/04-unity-triggers/homework.pdf)
 
@@ -32,7 +44,7 @@ This is because `TextMeshPro` is not in the project.
 The Unity Editor should hopefully prompt you to import TextMeshPro;
 once you do this, re-open the scenes, and you should be able to see the texts.
 
-
+---
 
 ## Credits
 
